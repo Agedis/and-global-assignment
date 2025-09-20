@@ -2,7 +2,21 @@
 Repo for hosting solutions to and global take home assignment 
 
 # Task 1
+1. Get a High-Level Overview
+Find online beginner-friendly resources and read articles to understand the why behind ERNIE.
 
+2. Explore Live Demos
+Try out a hosted ERNIE demo on Hugging Face Spaces or other online examples.
+Test simple tasks like masked word filling, sentiment analysis, or question answering.
+
+3. Run prebuilt code 
+Load a pretrained ERNIE model and run it on sample inputs for testing. 
+4. Understand Knowledge Masking 
+Study the key innovation: ERNIE masks entire concepts or entities rather than single words.
+Use simple examples to internalize the difference from BERT.
+
+5. Experiment with Mini Tasks 
+Fine-tune ERNIE on a small dataset for a practical task, like sentiment analysis. Observe features such as outputs, tokenization behavior, and model predictions.
 # Task 2
 
 # Medical Insurance Cost Prediction  
