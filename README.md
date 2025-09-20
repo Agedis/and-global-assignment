@@ -77,7 +77,7 @@ Clone the repository and install dependencies:
 
 ```bash
 git clone https://github.com/Agedis/and-global-assignment.git
-cd insurance-cost-prediction
+cd and-global-assignment
 
 python app.py (the server will start locally by default assuming all the necessary packages are installed)
 ```
