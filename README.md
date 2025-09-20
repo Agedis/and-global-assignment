@@ -69,6 +69,24 @@ python app.py (the server will start locally by default assuming all the necessa
   "region_southeast": 0,
   "region_southwest": 1
 }
+
+### ⚠️ Input Preconditions  
+
+When sending JSON input to the API, please ensure the following:  
+
+- **Age**: Must be a positive integer (e.g., `19`).  
+- **Sex**: Encoded as `0` (female) or `1` (male).  
+- **BMI**: Must be a positive float or integer (e.g., `27.9`).  
+- **Children**: Non-negative integer (e.g., `0`, `1`, `2`, …).  
+- **Smoker**: Encoded as `0` (non-smoker) or `1` (smoker).  
+- **Region**: Represented with one-hot encoding:  
+  - `region_northwest`, `region_southeast`, `region_southwest`  
+  - Each takes a value of `0` or `1`.  
+  - **Exactly one** region should be `1`, and the others must be `0`.  
+  - Example: `"region_southwest": 1, "region_southeast": 0, "region_northwest": 0`  
+
+If these conditions are not met, the model’s predictions may be unreliable or the server may throw an error.  
+
 ## Example output
 {
   "predicted_insurance_cost": 45231.78
