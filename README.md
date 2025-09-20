@@ -58,7 +58,7 @@ cd insurance-cost-prediction
 python app.py (the server will start locally by default assuming all the necessary packages are installed)
 ```
 
-# Example JSON request
+## Example JSON request
 {
   "age": 19,
   "sex": 1,
@@ -69,7 +69,7 @@ python app.py (the server will start locally by default assuming all the necessa
   "region_southeast": 0,
   "region_southwest": 1
 }
-# Example output
+## Example output
 {
   "predicted_insurance_cost": 45231.78
 }
