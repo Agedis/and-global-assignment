@@ -118,7 +118,7 @@ If these conditions are not met, the model’s predictions may be unreliable or 
 
 The project makes use of the following Python packages:  
 
-- [scikit-learn](https://scikit-learn.org/stable/) – Machine learning models (Linear Regression, Ridge, Lasso, ElasticNet)  
+- [scikit-learn](https://scikit-learn.org/stable/) – Machine learning models (Linear Regression, Ridge, ElasticNet)  
 - [numpy](https://numpy.org/) – Numerical computations  
 - [pandas](https://pandas.pydata.org/) – Data manipulation and preprocessing  
 - [matplotlib](https://matplotlib.org/) – Data visualization  
