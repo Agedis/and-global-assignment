@@ -76,7 +76,7 @@ The trained model is deployed using a simple **Flask** web server.
 Clone the repository and install dependencies:  
 
 ```bash
-git clone https://github.com/your-username/insurance-cost-prediction.git
+git clone https://github.com/Agedis/and-global-assignment/blob/master.git
 cd insurance-cost-prediction
 
 python app.py (the server will start locally by default assuming all the necessary packages are installed)
