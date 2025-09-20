@@ -26,7 +26,6 @@ The model was trained on the [Medical Insurance Cost Dataset](https://www.kaggle
 
 ## 🤖 Model  
 A **linear regression model** was chosen for its interpretability and suitability for continuous outcomes.  
-
 We compared:  
 - Ordinary Linear Regression  
 - Regularized models: **Ridge**, and **ElasticNet**  
@@ -37,7 +36,15 @@ We compared:
 
 📌 Regularization did not significantly improve performance, so **ordinary linear regression** was selected as the final model.  
 
-Code for the model training is in google colab notebook: https://colab.research.google.com/drive/1z4wuowh5jqf758zdt85syZEAoCn0hJdm#scrollTo=bn2DRnsoPTw4
+The code used for training the linear regression model is available in a **Google Colab notebook**:  
+[Open Colab Notebook](https://colab.research.google.com/drive/1z4wuowh5jqf758zdt85syZEAoCn0hJdm#scrollTo=bn2DRnsoPTw4)
+
+This notebook includes:  
+- Preliminary analysis of the dataset
+- Data preprocessing steps (handling categorical variables, scaling numeric features)  
+- Model training (ordinary linear regression and comparisons with regularized models)  
+- Evaluation metrics (RMSE, R²)  
+- Visualization of results 
 ---
 
 ## 🚀 Deployment  
