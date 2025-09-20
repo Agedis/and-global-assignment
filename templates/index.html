@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Processor</title>
+</head>
+<body>
+    <h1>JSON Input</h1>
+    <p> Please upload a json file or paste your query as a text in the textbox below. </p>
+    <p> Then click the <b> Process JSON </b> button to get model's predicted insurance charge. </p>
+    <input type="file" id="jsonFile" accept=".json">
+    <br><br>
+    <textarea id="jsonText" rows="10" cols="50" placeholder="Paste JSON here..."></textarea>
+    <br><br>
+    <button id="submitBtn">Process JSON</button>
+
+    <h2>Processed JSON Output</h2>
+    <pre id="output"></pre>
+
+    <script src="/static/app.js"></script>
+
+</body>
+</html>
