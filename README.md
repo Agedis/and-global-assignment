@@ -59,6 +59,8 @@ pip install -r requirements.txt
 python app.py
 (the server will start locally by default)
 
+---
+
 # Example JSON request
 {
   "age": 19,
