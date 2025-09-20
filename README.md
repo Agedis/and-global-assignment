@@ -55,3 +55,22 @@ Clone the repository and install dependencies:
 git clone https://github.com/your-username/insurance-cost-prediction.git
 cd insurance-cost-prediction
 pip install -r requirements.txt
+
+python app.py
+(the server will start locally by default)
+
+# Example JSON request
+{
+  "age": 19,
+  "sex": 1,
+  "bmi": 140,
+  "children": 0,
+  "smoker": 0,
+  "region_northwest": 0,
+  "region_southeast": 0,
+  "region_southwest": 1
+}
+# Example output
+{
+  "predicted_insurance_cost": 45231.78
+}
