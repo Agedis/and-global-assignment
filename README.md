@@ -29,7 +29,7 @@ A **linear regression model** was chosen for its interpretability and suitabilit
 
 We compared:  
 - Ordinary Linear Regression  
-- Regularized models: **Ridge**, **Lasso**, and **ElasticNet**  
+- Regularized models: **Ridge**, and **ElasticNet**  
 
 **Evaluation Metrics:**  
 - Root Mean Squared Error (RMSE)  
