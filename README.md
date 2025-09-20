@@ -37,6 +37,7 @@ We compared:
 
 📌 Regularization did not significantly improve performance, so **ordinary linear regression** was selected as the final model.  
 
+Code for the model training is in google colab notebook: https://colab.research.google.com/drive/1z4wuowh5jqf758zdt85syZEAoCn0hJdm#scrollTo=bn2DRnsoPTw4
 ---
 
 ## 🚀 Deployment  
