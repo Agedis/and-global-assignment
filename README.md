@@ -54,12 +54,9 @@ Clone the repository and install dependencies:
 ```bash
 git clone https://github.com/your-username/insurance-cost-prediction.git
 cd insurance-cost-prediction
-pip install -r requirements.txt
 
-python app.py
-(the server will start locally by default)
-
----
+python app.py (the server will start locally by default assuming all the necessary packages are installed)
+```
 
 # Example JSON request
 {
@@ -76,3 +73,16 @@ python app.py
 {
   "predicted_insurance_cost": 45231.78
 }
+
+## 📦 Packages Used  
+
+The project makes use of the following Python packages:  
+
+- [scikit-learn](https://scikit-learn.org/stable/) – Machine learning models (Linear Regression, Ridge, Lasso, ElasticNet)  
+- [numpy](https://numpy.org/) – Numerical computations  
+- [pandas](https://pandas.pydata.org/) – Data manipulation and preprocessing  
+- [matplotlib](https://matplotlib.org/) – Data visualization  
+- [seaborn](https://seaborn.pydata.org/) – Statistical data visualization  
+- [flask](https://flask.palletsprojects.com/) – Web framework for deployment  
+- [json](https://docs.python.org/3/library/json.html) – JSON parsing and formatting  
+- [sys](https://docs.python.org/3/library/sys.html) – System-specific parameters and functions 
